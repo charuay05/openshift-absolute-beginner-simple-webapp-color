@@ -16,3 +16,8 @@ The main files in this repository are:
 Licensed under Apache 2.0. Please see [LICENSE](LICENSE) for details.
 
 echo "This is test contents" > /data/testfile.txt
+
+```bash
+    haproxy.router.openshift.io/balance: roundrobin
+    haproxy.router.openshift.io/disable_cokkies: 'true'
+```
