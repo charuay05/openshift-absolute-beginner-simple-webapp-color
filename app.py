@@ -16,7 +16,7 @@ color_codes = {
   "darkblue": "#130f40"
  }
  
- color = os.environ.get('APP_COLOR') or random.choice(["red","green","blue","blue2","darkblue",ping"])
+ color = os.environ.get('APP_COLOR') or random.choice(["red","green","blue","blue2","darkblue","ping"])
 
 @app.route('/')
 def main():
