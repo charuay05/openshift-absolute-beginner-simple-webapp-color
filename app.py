@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from flask render_template
+from flask import render_template
 import socket
 import random
 import os
