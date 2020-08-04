@@ -15,7 +15,16 @@ The main files in this repository are:
 
 Licensed under Apache 2.0. Please see [LICENSE](LICENSE) for details.
 
+## Create Storage
+
+* Claim pvc and mount /data
+
+```bash
+open terminal of a pod
 echo "This is test contents" > /data/testfile.txt
+```
+
+* Edit route
 
 ```bash
     haproxy.router.openshift.io/balance: roundrobin
