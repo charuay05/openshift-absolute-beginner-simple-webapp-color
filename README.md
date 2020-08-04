@@ -19,8 +19,8 @@ Licensed under Apache 2.0. Please see [LICENSE](LICENSE) for details.
 
 * Claim pvc and mount /data
 
-```bash
 open terminal of a pod
+```bash
 echo "This is test contents" > /data/testfile.txt
 ```
 
