@@ -30,7 +30,7 @@ def new_color(new_color):
 
 @app.route('/read_file')
 def read_file():
-    f = open("/data/testfile.txt")
+    f = open("/opt/app-root/src/testfile.txt")
     readcontents = f.read()
     return render_template('hello.html', name=socket.gethostname(), contents=readcontents, color=color_codes[color])
 
